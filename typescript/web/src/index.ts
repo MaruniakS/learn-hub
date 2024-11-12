@@ -22,7 +22,3 @@ users.on('change', () => {
 });
 
 users.fetch();
-
-setTimeout(() => {
-  users.fetch();
-}, 10)
